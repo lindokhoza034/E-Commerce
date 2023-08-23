@@ -1,0 +1,21 @@
+/* your styles go here */
+#services,
+#cart,
+thead,
+#cart-nav,
+#checkout {
+    background-color: #dcb14a;
+}
+
+#bread {
+    color: white;
+}
+
+select {
+    border: 1px solid rgb(214, 211, 211);
+    min-height: calc(1.5em + 1.2rem + 2px);
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    max-width: 100%;
+}
+

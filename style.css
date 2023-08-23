@@ -1,0 +1,72 @@
+/*Declare colors*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Change the background color of the body */
+body {
+    background: url(images/output-onlinepngtools.png);
+}
+
+
+
+/* Align vertically and horizontally center */
+.container {
+    /* width: 65%; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+/*Add image in left column, it must cover the entire column, and make the corners of the column rounded*/
+.image-col {
+    background-image: url(images/dom-hill-nimElTcTNyY-unsplash.jpg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* change background color to white, make the corners rounded and add a shadow to the row div*/
+.row {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 12px 12px 30px gray;
+    /* height: 80vh;
+    width: auto; */
+}
+
+/* Add margin above signin-description paragraph and on the input boxes*/
+.signin-description,
+input {
+    margin-top: 45px;
+}
+
+/* align contents of the form center */
+.form-input {
+    text-align: center;
+}
+
+/* display forgot password on the far right */
+.forgot-pwd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Make the width of the button 100% of its containing block, add a margin above and below the button */
+.btn {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* @media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+} */

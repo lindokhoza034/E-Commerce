@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Boutique</title>
+</head>
+
+<body>
+  <section class="sign-in my-4">
+    <div class="container">
+      <!--row divided into two parts-->
+      <div class="row no-gutters">
+        <!--first part consists of 5 columns and it contains the image-->
+        <div class="image-col col-lg-5 d-none d-lg-block">
+          <!-- <img src="/images/dom-hill-nimElTcTNyY-unsplash.jpg" class="img-fluid" alt="" /> -->
+        </div>
+        <!--second part consists of 7 columns and it has the form
+            it has padding for left and right (px-5) and a padding for top and bottom (py-5)
+        -->
+        <div class="form-input col-lg-7 px-5 py-5">
+          <!--The logo has a margin for top and bottom (my-4)-->
+          <h1 class="logo my-4">Welcome Back :&#41</h1>
+          <p class="signin-description">
+            Enter your email and password to sign into your account
+          </p>
+          <form onsubmit="login(); return false;">
+            <div class="form-group">
+              <!-- <label for="email">Email address</label> -->
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email"
+                required />
+              <div class="invalid-feedback">
+                Please enter a valid email address.
+              </div>
+            </div>
+            <div class="form-group">
+              <!-- <label for="password">Password</label> -->
+              <input type="password" class="form-control" id="password" placeholder="Password" required />
+              <a href="#" class="forgot-pwd">Forgot Password?</a>
+              <div class="invalid-feedback">
+                Please enter a valid password.
+              </div>
+            </div>
+            <a href="products.html">
+              <button type="submit" class="btn btn-primary">Sign In</button>
+            </a>
+          </form>
+          <p>Don't have an account? <a href="#">Sign up here</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <script src="js/main.js">
+    main.js
+  </script>
+</body>
+
+</html>
